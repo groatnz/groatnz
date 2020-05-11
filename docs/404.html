@@ -1,0 +1,640 @@
+<!DOCTYPE html><html><head><html lang="en"></html><meta charSet="utf-8"/><meta http-equiv="x-ua-compatible" content="ie=edge"/><meta name="viewport" content="width=device-width, initial-scale=1"/><meta name="Description" content="Software Generation"/><meta property="og:url" content="http://groat.nz/_error"/><meta property="og:type" content="website"/><meta property="og:title" content="Groat"/><meta property="og:image" content="/static/images/groat-small.svg"/><meta property="og:description" content="Software Generation"/><meta property="og:site_name" content="Groat.nz"/><meta property="og:locale" content="en_US"/><meta name="twitter:card" content="summary"/><meta name="twitter:site" content="@avowkind"/><meta name="twitter:creator" content="@avowkind"/><meta name="twitter:url" content="http://groat.nz/_error"/><meta name="twitter:title" content="Groat"/><meta name="twitter:description" content="Software Generation"/><meta name="twitter:image" content="/static/images/groat-small.svg"/><link rel="icon" type="image/x-icon" sizes="16x16 32x32" href="/static/images/favicon.ico"/><link rel="apple-touch-icon" sizes="180x180" href="/static/images/favicon-180.png"/><link rel="icon" sizes="192x192" href="/static/images/favicon-192.png"/><meta name="theme-color" content="#809080"/><link rel="manifest" href="/static/manifest.json"/><style>
+    /* Reset CSS */
+    /* Document
+ * ========================================================================== */
+
+/**
+ * Add border box sizing in all browsers (opinionated).
+ */
+
+*,
+::before,
+::after {
+  box-sizing: border-box;
+}
+
+/**
+ * 1. Add text decoration inheritance in all browsers (opinionated).
+ * 2. Add vertical alignment inheritance in all browsers (opinionated).
+ */
+
+::before,
+::after {
+  text-decoration: inherit; /* 1 */
+  vertical-align: inherit; /* 2 */
+}
+
+/**
+ * 1. Use the default cursor in all browsers (opinionated).
+ * 2. Change the line height in all browsers (opinionated).
+ * 3. Use a 4-space tab width in all browsers (opinionated).
+ * 4. Remove the grey highlight on links in iOS (opinionated).
+ * 5. Prevent adjustments of font size after orientation changes in
+ *    IE on Windows Phone and in iOS.
+ * 6. Breaks words to prevent overflow in all browsers (opinionated).
+ */
+
+html {
+  cursor: default; /* 1 */
+  line-height: 1.5; /* 2 */
+  -moz-tab-size: 4; /* 3 */
+  tab-size: 4; /* 3 */
+  -webkit-tap-highlight-color: transparent /* 4 */;
+  -ms-text-size-adjust: 100%; /* 5 */
+  -webkit-text-size-adjust: 100%; /* 5 */
+  word-break: break-word; /* 6 */
+}
+
+/* Sections
+ * ========================================================================== */
+
+/**
+ * Remove the margin in all browsers (opinionated).
+ */
+
+body {
+  margin: 0;
+}
+
+/**
+ * Correct the font size and margin on `h1` elements within `section` and
+ * `article` contexts in Chrome, Edge, Firefox, and Safari.
+ */
+
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0;
+}
+
+/* Grouping content
+ * ========================================================================== */
+
+/**
+ * Remove the margin on nested lists in Chrome, Edge, IE, and Safari.
+ */
+
+dl dl,
+dl ol,
+dl ul,
+ol dl,
+ul dl {
+  margin: 0;
+}
+
+/**
+ * Remove the margin on nested lists in Edge 18- and IE.
+ */
+
+ol ol,
+ol ul,
+ul ol,
+ul ul {
+  margin: 0;
+}
+
+/**
+ * 1. Add the correct sizing in Firefox.
+ * 2. Show the overflow in Edge 18- and IE.
+ */
+
+hr {
+  height: 0; /* 1 */
+  overflow: visible; /* 2 */
+}
+
+/**
+ * Add the correct display in IE.
+ */
+
+main {
+  display: block;
+}
+
+/**
+ * Remove the list style on navigation lists in all browsers (opinionated).
+ */
+
+nav ol,
+nav ul {
+  list-style: none;
+  padding: 0;
+}
+
+/**
+ * 1. Correct the inheritance and scaling of font size in all browsers.
+ * 2. Correct the odd `em` font sizing in all browsers.
+ */
+
+pre {
+  font-family: monospace, monospace; /* 1 */
+  font-size: 1em; /* 2 */
+}
+
+/* Text-level semantics
+ * ========================================================================== */
+
+/**
+ * Remove the gray background on active links in IE 10.
+ */
+
+a {
+  background-color: transparent;
+}
+
+/**
+ * Add the correct text decoration in Edge 18-, IE, and Safari.
+ */
+
+abbr[title] {
+  text-decoration: underline;
+  text-decoration: underline dotted;
+}
+
+/**
+ * Add the correct font weight in Chrome, Edge, and Safari.
+ */
+
+b,
+strong {
+  font-weight: bolder;
+}
+
+/**
+ * 1. Correct the inheritance and scaling of font size in all browsers.
+ * 2. Correct the odd `em` font sizing in all browsers.
+ */
+
+code,
+kbd,
+samp {
+  font-family: monospace, monospace; /* 1 */
+  font-size: 1em; /* 2 */
+}
+
+/**
+ * Add the correct font size in all browsers.
+ */
+
+small {
+  font-size: 80%;
+}
+
+/* Embedded content
+ * ========================================================================== */
+
+/*
+ * Change the alignment on media elements in all browsers (opinionated).
+ */
+
+audio,
+canvas,
+iframe,
+img,
+svg,
+video {
+  vertical-align: middle;
+}
+
+/**
+ * Add the correct display in IE 9-.
+ */
+
+audio,
+video {
+  display: inline-block;
+}
+
+/**
+ * Add the correct display in iOS 4-7.
+ */
+
+audio:not([controls]) {
+  display: none;
+  height: 0;
+}
+
+/**
+ * Remove the border on iframes in all browsers (opinionated).
+ */
+
+iframe {
+  border-style: none;
+}
+
+/**
+ * Remove the border on images within links in IE 10-.
+ */
+
+img {
+  border-style: none;
+}
+
+/**
+ * Change the fill color to match the text color in all browsers (opinionated).
+ */
+
+svg:not([fill]) {
+  fill: currentColor;
+}
+
+/**
+ * Hide the overflow in IE.
+ */
+
+svg:not(:root) {
+  overflow: hidden;
+}
+
+/* Tabular data
+ * ========================================================================== */
+
+/**
+ * Collapse border spacing in all browsers (opinionated).
+ */
+
+table {
+  border-collapse: collapse;
+}
+
+/* Forms
+ * ========================================================================== */
+
+/**
+ * Remove the margin on controls in Safari.
+ */
+
+button,
+input,
+select {
+  margin: 0;
+}
+
+/**
+ * 1. Show the overflow in IE.
+ * 2. Remove the inheritance of text transform in Edge 18-, Firefox, and IE.
+ */
+
+button {
+  overflow: visible; /* 1 */
+  text-transform: none; /* 2 */
+}
+
+/**
+ * Correct the inability to style buttons in iOS and Safari.
+ */
+
+button,
+[type="button"],
+[type="reset"],
+[type="submit"] {
+  -webkit-appearance: button;
+}
+
+/**
+ * 1. Change the inconsistent appearance in all browsers (opinionated).
+ * 2. Correct the padding in Firefox.
+ */
+
+fieldset {
+  border: 1px solid #a0a0a0; /* 1 */
+  padding: 0.35em 0.75em 0.625em; /* 2 */
+}
+
+/**
+ * Show the overflow in Edge 18- and IE.
+ */
+
+input {
+  overflow: visible;
+}
+
+/**
+ * 1. Correct the text wrapping in Edge 18- and IE.
+ * 2. Correct the color inheritance from `fieldset` elements in IE.
+ */
+
+legend {
+  color: inherit; /* 2 */
+  display: table; /* 1 */
+  max-width: 100%; /* 1 */
+  white-space: normal; /* 1 */
+}
+
+/**
+ * 1. Add the correct display in Edge 18- and IE.
+ * 2. Add the correct vertical alignment in Chrome, Edge, and Firefox.
+ */
+
+progress {
+  display: inline-block; /* 1 */
+  vertical-align: baseline; /* 2 */
+}
+
+/**
+ * Remove the inheritance of text transform in Firefox.
+ */
+
+select {
+  text-transform: none;
+}
+
+/**
+ * 1. Remove the margin in Firefox and Safari.
+ * 2. Remove the default vertical scrollbar in IE.
+ * 3. Change the resize direction in all browsers (opinionated).
+ */
+
+textarea {
+  margin: 0; /* 1 */
+  overflow: auto; /* 2 */
+  resize: vertical; /* 3 */
+}
+
+/**
+ * Remove the padding in IE 10-.
+ */
+
+[type="checkbox"],
+[type="radio"] {
+  padding: 0;
+}
+
+/**
+ * 1. Correct the odd appearance in Chrome, Edge, and Safari.
+ * 2. Correct the outline style in Safari.
+ */
+
+[type="search"] {
+  -webkit-appearance: textfield; /* 1 */
+  outline-offset: -2px; /* 2 */
+}
+
+/**
+ * Correct the cursor style of increment and decrement buttons in Safari.
+ */
+
+::-webkit-inner-spin-button,
+::-webkit-outer-spin-button {
+  height: auto;
+}
+
+/**
+ * Correct the text style of placeholders in Chrome, Edge, and Safari.
+ */
+
+::-webkit-input-placeholder {
+  color: inherit;
+  opacity: 0.54;
+}
+
+/**
+ * Remove the inner padding in Chrome, Edge, and Safari on macOS.
+ */
+
+::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+
+/**
+ * 1. Correct the inability to style upload buttons in iOS and Safari.
+ * 2. Change font properties to `inherit` in Safari.
+ */
+
+::-webkit-file-upload-button {
+  -webkit-appearance: button; /* 1 */
+  font: inherit; /* 2 */
+}
+
+/**
+ * Remove the inner border and padding of focus outlines in Firefox.
+ */
+
+::-moz-focus-inner {
+  border-style: none;
+  padding: 0;
+}
+
+/**
+ * Restore the focus outline styles unset by the previous rule in Firefox.
+ */
+
+:-moz-focusring {
+  outline: 1px dotted ButtonText;
+}
+
+/**
+ * Remove the additional :invalid styles in Firefox.
+ */
+
+:-moz-ui-invalid {
+  box-shadow: none;
+}
+
+/* Interactive
+ * ========================================================================== */
+
+/*
+ * Add the correct display in Edge 18- and IE.
+ */
+
+details {
+  display: block;
+}
+
+/*
+ * Add the correct styles in Edge 18-, IE, and Safari.
+ */
+
+dialog {
+  background-color: white;
+  border: solid;
+  color: black;
+  display: block;
+  height: -moz-fit-content;
+  height: -webkit-fit-content;
+  height: fit-content;
+  left: 0;
+  margin: auto;
+  padding: 1em;
+  position: absolute;
+  right: 0;
+  width: -moz-fit-content;
+  width: -webkit-fit-content;
+  width: fit-content;
+}
+
+dialog:not([open]) {
+  display: none;
+}
+
+/*
+ * Add the correct display in all browsers.
+ */
+
+summary {
+  display: list-item;
+}
+
+/* Scripting
+ * ========================================================================== */
+
+/**
+ * Add the correct display in IE 9-.
+ */
+
+canvas {
+  display: inline-block;
+}
+
+/**
+ * Add the correct display in IE.
+ */
+
+template {
+  display: none;
+}
+
+/* User interaction
+ * ========================================================================== */
+
+/*
+ * 1. Remove the tapping delay in IE 10.
+ * 2. Remove the tapping delay on clickable elements
+      in all browsers (opinionated).
+ */
+
+a,
+area,
+button,
+input,
+label,
+select,
+summary,
+textarea,
+[tabindex] {
+  -ms-touch-action: manipulation; /* 1 */
+  touch-action: manipulation; /* 2 */
+}
+
+/**
+ * Add the correct display in IE 10-.
+ */
+
+[hidden] {
+  display: none;
+}
+
+/* Accessibility
+ * ========================================================================== */
+
+/**
+ * Change the cursor on busy elements in all browsers (opinionated).
+ */
+
+[aria-busy="true"] {
+  cursor: progress;
+}
+
+/*
+ * Change the cursor on control elements in all browsers (opinionated).
+ */
+
+[aria-controls] {
+  cursor: pointer;
+}
+
+/*
+ * Change the cursor on disabled, not-editable, or otherwise
+ * inoperable elements in all browsers (opinionated).
+ */
+
+[aria-disabled="true"],
+[disabled] {
+  cursor: not-allowed;
+}
+
+/*
+ * Change the display on visually hidden accessible elements
+ * in all browsers (opinionated).
+ */
+
+[aria-hidden="false"][hidden] {
+  display: initial;
+}
+
+[aria-hidden="false"][hidden]:not(:focus) {
+  clip: rect(0, 0, 0, 0);
+  position: absolute;
+}
+
+
+    /* Fix for Prism syntax highlight styles */
+    .prism-code {
+        overflow-x: auto;
+    }
+    code {
+        padding: 3px 8px;
+        background: #282c34;
+        color: #FFFFFF;
+        border-radius: 3px;
+        white-space: nowrap;
+    }
+
+    /* Set global font */
+    * {
+        font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", Arial, sans-serif;
+        line-height: 1.8em;
+    }
+
+    .dl-horizontal dt { 
+        float: left;
+        text-align: right;
+        padding-right: 0.5rem;
+        width: 30%;
+    }
+        
+    .dl-horizontal dd { 
+        margin-left: 30%;
+        font-weight: bold;
+    }
+    .dl-horizontal dd:after {
+        content: "";
+        display: block;
+        clear: both;
+    }
+
+</style><title>404: This page could not be found</title><meta name="next-head-count" content="26"/><link rel="preload" href="/_next/static/36au9bOQHhHNjShwqe0Ly/pages/_app.js" as="script"/><link rel="preload" href="/_next/static/runtime/webpack-c212667a5f965e81e004.js" as="script"/><link rel="preload" href="/_next/static/chunks/framework.c8d289f8b96717e32d7a.js" as="script"/><link rel="preload" href="/_next/static/chunks/8f7c4d8ce2c7df4cc0bf160d616449143ff9a01f.ed9d87f80730ddce5554.js" as="script"/><link rel="preload" href="/_next/static/runtime/main-c813c3cd4130941a05f5.js" as="script"/><style data-styled="cihWag kPehzB cXsZUK gbqWJv buZUss ichMXR gRJoBT erTzfA euQsPh jTHWqG evLdHq iZmUXY jyRQhg Onkyr VSHRf jycHyg kXFYwp haISLe" data-styled-version="4.4.1">
+/* sc-component-id: Contact__ContactBox-sc-1souzla-0 */
+.buZUss dt{float:left;text-align:right;padding-right:0.5rem;width:37%;} .buZUss dd{margin-left:37%;} .buZUss dd:after{content:"";display:block;clear:both;}
+/* sc-component-id: Sidebar__Nav-so83x3-0 */
+.cXsZUK{width:100%;height:100%;padding:10px 30px 100px;background:rgba(128,144,128,1);border-right:1px solid gray;overflow:auto;-webkit-overflow-scrolling:touch;} .cXsZUK *{color:#FFFFFF;text-shadow:0 2px 5px black !important;} .cXsZUK ul{padding-left:0;margin:0;} .cXsZUK li,.cXsZUK li > *{line-height:2.5em;} .cXsZUK li.active,.cXsZUK li > *.active{position:relative;-webkit-text-decoration:none;text-decoration:none;font-weight:bold;font-style:italic;color:white;} .cXsZUK li a{display:block;-webkit-text-decoration:none;text-decoration:none;} .cXsZUK li a:hover{color:#88eeff;-webkit-text-decoration:underline;text-decoration:underline;} .cXsZUK li a:visited{color:#FFFFFF;}
+/* sc-component-id: Sidebar__Header-so83x3-1 */
+.gbqWJv{margin-bottom:30px;text-align:center;} .gbqWJv .logo{width:70%;padding:0px 0;} .gbqWJv .twitter{display:block;margin:10px auto;} .gbqWJv .twitter img{height:24px;}
+/* sc-component-id: Header__Nav-sc-10h1niu-0 */
+.erTzfA{position:relative;width:100%;height:56px;display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-box-pack:justify;-webkit-justify-content:space-between;-ms-flex-pack:justify;justify-content:space-between;-webkit-transition:0.3s;transition:0.3s;background:transparent;} @media (max-width:767px){.erTzfA{background:transparent;}}
+/* sc-component-id: Header__PCOnly-sc-10h1niu-1 */
+.jyRQhg{display:block;} @media (max-width:767px){.jyRQhg{display:none;}}
+/* sc-component-id: Header__MobileOnly-sc-10h1niu-2 */
+.evLdHq{display:none;} @media (max-width:767px){.evLdHq{display:block;}}
+/* sc-component-id: Header__Logo-sc-10h1niu-3 */
+.euQsPh{height:100%;padding:4px 0;position:absolute;left:51%;-webkit-transform:translateX(-50%);-ms-transform:translateX(-50%);transform:translateX(-50%);-webkit-transition:opacity 0.3s;transition:opacity 0.3s;opacity:0;} @media (max-width:767px){.euQsPh{opacity:1;}}
+/* sc-component-id: Header__Right-sc-10h1niu-5 */
+.iZmUXY{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;line-height:56px;margin-right:8px;} @media (max-width:767px){.iZmUXY{margin-right:0;}} .iZmUXY .header-link a{line-height:56px;-webkit-text-decoration:none;text-decoration:none;color:#FFFFFF;font-weight:bold;margin:0 8px;}
+/* sc-component-id: Footer__FooterEl-jr85am-0 */
+.jycHyg{width:90%;max-width:640px;margin:0 auto;text-align:center;}
+/* sc-component-id: Footer__Hr-jr85am-1 */
+.kXFYwp{margin:60px auto 0;}
+/* sc-component-id: Footer__FooterText-jr85am-2 */
+.haISLe{margin:30px auto;}
+/* sc-component-id: Layout__Wrapper-sc-1xmi7q9-0 */
+.cihWag{position:fixed;top:0;left:0;height:100%;width:100vw;overflow:visible;display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-transition:left 0.3s;transition:left 0.3s;} @media (max-width:767px){.cihWag{width:auto;left:-75vw;}.cihWag.menu{left:0;}}
+/* sc-component-id: Layout__SidebarWrapper-sc-1xmi7q9-1 */
+.kPehzB{width:270px;-webkit-overflow-scrolling:touch;} @media (max-width:767px){.kPehzB{width:75vw;}}
+/* sc-component-id: Layout__BodyColumn-sc-1xmi7q9-2 */
+.ichMXR{-webkit-flex:1;-ms-flex:1;flex:1;position:relative;} @media (max-width:767px){.ichMXR{width:100vw;}}
+/* sc-component-id: Layout__MainWrapper-sc-1xmi7q9-3 */
+.Onkyr{height:100%;width:100%;overflow:auto;-webkit-overflow-scrolling:touch;padding:20px;padding-top:60px;display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-flex-direction:column;-ms-flex-direction:column;flex-direction:column;background-color:#fffff8;background-image:url("data:image/svg+xml,%3Csvg width='120' height='120' viewBox='0 0 120 120' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M9 0h2v20H9V0zm25.134.84l1.732 1-10 17.32-1.732-1 10-17.32zm-20 20l1.732 1-10 17.32-1.732-1 10-17.32zM58.16 4.134l1 1.732-17.32 10-1-1.732 17.32-10zm-40 40l1 1.732-17.32 10-1-1.732 17.32-10zM80 9v2H60V9h20zM20 69v2H0v-2h20zm79.32-55l-1 1.732-17.32-10L82 4l17.32 10zm-80 80l-1 1.732-17.32-10L2 84l17.32 10zm96.546-75.84l-1.732 1-10-17.32 1.732-1 10 17.32zm-100 100l-1.732 1-10-17.32 1.732-1 10 17.32zM38.16 24.134l1 1.732-17.32 10-1-1.732 17.32-10zM60 29v2H40v-2h20zm19.32 5l-1 1.732-17.32-10L62 24l17.32 10zm16.546 4.16l-1.732 1-10-17.32 1.732-1 10 17.32zM111 40h-2V20h2v20zm3.134.84l1.732 1-10 17.32-1.732-1 10-17.32zM40 49v2H20v-2h20zm19.32 5l-1 1.732-17.32-10L42 44l17.32 10zm16.546 4.16l-1.732 1-10-17.32 1.732-1 10 17.32zM91 60h-2V40h2v20zm3.134.84l1.732 1-10 17.32-1.732-1 10-17.32zm24.026 3.294l1 1.732-17.32 10-1-1.732 17.32-10zM39.32 74l-1 1.732-17.32-10L22 64l17.32 10zm16.546 4.16l-1.732 1-10-17.32 1.732-1 10 17.32zM71 80h-2V60h2v20zm3.134.84l1.732 1-10 17.32-1.732-1 10-17.32zm24.026 3.294l1 1.732-17.32 10-1-1.732 17.32-10zM120 89v2h-20v-2h20zm-84.134 9.16l-1.732 1-10-17.32 1.732-1 10 17.32zM51 100h-2V80h2v20zm3.134.84l1.732 1-10 17.32-1.732-1 10-17.32zm24.026 3.294l1 1.732-17.32 10-1-1.732 17.32-10zM100 109v2H80v-2h20zm19.32 5l-1 1.732-17.32-10 1-1.732 17.32 10zM31 120h-2v-20h2v20z' fill='%23809080' fill-opacity='0.1' fill-rule='evenodd'/%3E%3C/svg%3E");background-attachment:scroll;}
+/* sc-component-id: Layout__Main-sc-1xmi7q9-4 */
+.VSHRf{-webkit-flex:1;-ms-flex:1;flex:1;width:100%;max-width:720px;margin:0 auto;} .VSHRf img{max-width:100%;}
+/* sc-component-id: Layout__HeaderWrapper-sc-1xmi7q9-5 */
+.gRJoBT{position:absolute;top:0;width:100%;z-index:2;}</style></head><body><div id="__next"><div><div class="Layout__Wrapper-sc-1xmi7q9-0 cihWag"><div class="Layout__SidebarWrapper-sc-1xmi7q9-1 kPehzB"><nav class="Sidebar__Nav-so83x3-0 cXsZUK"><div class="Sidebar__Header-so83x3-1 gbqWJv"><h1>Groat.nz</h1><div><a href="/"><img class="logo" src="/static/images/groat-small.svg" alt="groat logo"/></a></div></div><ul style="text-indent:0"><li><a href="/">Home</a></li><li><a href="/resume">Resume</a></li><li><a href="/tech-skills">Dev skills</a></li><li><a href="/sfia-skills">IT skills</a></li><li><a href="/quotes">Quotes</a></li></ul><hr/><dl class="Contact__ContactBox-sc-1souzla-0 buZUss"><dt>Email</dt><dd><a href="mailto:andrew@groat.nz">andrew@groat.nz</a></dd><dt>Phone</dt><dd>+64 27 7031007</dd><dt>Twitter</dt><dd><a href="https://twitter.com/avowkind">@avowkind</a></dd><dt>LinkedIn</dt><dd><a href="https://www.linkedin.com/in/andrewwatkinsnz">andrewwatkinsnz</a></dd><dt>GitHub</dt><dd><a href="https://github.com/avowkind">GroatNZ</a></dd></dl></nav></div><div class="Layout__BodyColumn-sc-1xmi7q9-2 ichMXR"><div class="Layout__HeaderWrapper-sc-1xmi7q9-5 gRJoBT"><div color="#809080" class="Header__Nav-sc-10h1niu-0 erTzfA"><div class="Header__Logo-sc-10h1niu-3 euQsPh"><a href="/"><img src="/static/images/groat-small.svg" alt="Groat logo" height="48"/></a></div><div class="Header__Left-sc-10h1niu-4 jTHWqG"><div class="Header__MobileOnly-sc-10h1niu-2 evLdHq"><button title="Menu" class="jsx-316289044 BurgerArrow Burger"><div class="jsx-316289044 BurgerBox"><div class="jsx-316289044 BurgerInner"></div></div></button></div></div><div class="Header__Right-sc-10h1niu-5 iZmUXY"><div class="Header__PCOnly-sc-10h1niu-1 jyRQhg"><span class="header-link"><a href="https://github.com/groatnz" target="_blank" rel="noopener noreferrer">GitHub</a></span></div></div></div></div><div class="Layout__MainWrapper-sc-1xmi7q9-3 Onkyr body"><main class="Layout__Main-sc-1xmi7q9-4 VSHRf"><div style="color:#000;background:#fff;font-family:-apple-system, BlinkMacSystemFont, Roboto, &quot;Segoe UI&quot;, &quot;Fira Sans&quot;, Avenir, &quot;Helvetica Neue&quot;, &quot;Lucida Grande&quot;, sans-serif;height:100vh;text-align:center;display:flex;flex-direction:column;align-items:center;justify-content:center"><div><style>body { margin: 0 }</style><h1 style="display:inline-block;border-right:1px solid rgba(0, 0, 0,.3);margin:0;margin-right:20px;padding:10px 23px 10px 0;font-size:24px;font-weight:500;vertical-align:top">404</h1><div style="display:inline-block;text-align:left;line-height:49px;height:49px;vertical-align:middle"><h2 style="font-size:14px;font-weight:normal;line-height:inherit;margin:0;padding:0">This page could not be found<!-- -->.</h2></div></div></div></main><footer class="Footer__FooterEl-jr85am-0 jycHyg"><hr class="Footer__Hr-jr85am-1 kXFYwp"/><div class="Footer__FooterText-jr85am-2 haISLe">groat.nz work can be found at <a href="https://github.com/groatnz" target="_blank" rel="noopener noreferrer">Github</a></div></footer></div></div></div></div></div><script id="__NEXT_DATA__" type="application/json">{"props":{"pageProps":{"statusCode":404}},"page":"/_error","query":{},"buildId":"36au9bOQHhHNjShwqe0Ly","nextExport":true,"isFallback":false,"gip":true}</script><script nomodule="" src="/_next/static/runtime/polyfills-19c51f1d429240f27e5c.js"></script><script async="" data-next-page="/_app" src="/_next/static/36au9bOQHhHNjShwqe0Ly/pages/_app.js"></script><script src="/_next/static/runtime/webpack-c212667a5f965e81e004.js" async=""></script><script src="/_next/static/chunks/framework.c8d289f8b96717e32d7a.js" async=""></script><script src="/_next/static/chunks/8f7c4d8ce2c7df4cc0bf160d616449143ff9a01f.ed9d87f80730ddce5554.js" async=""></script><script src="/_next/static/runtime/main-c813c3cd4130941a05f5.js" async=""></script><script src="/_next/static/36au9bOQHhHNjShwqe0Ly/_buildManifest.js" async=""></script><script src="/_next/static/36au9bOQHhHNjShwqe0Ly/_ssgManifest.js" async=""></script></body></html>
