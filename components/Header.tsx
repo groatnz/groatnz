@@ -9,8 +9,7 @@ import { Link, Img } from "../lib/components";
 import config from "../lib/config";
 import constants from "./constants";
 import Hamburger from "./Hamburger";
-import Language from "./Language";
-
+    
 const Nav = styled.div<{ visible: boolean; color: string }>`
     position: relative;
     width: 100%;
@@ -98,8 +97,8 @@ const Header = (): React.ReactElement => {
             <Logo visible={isLogoVisible}>
                 <Link href={getPathForLang(lang, "/")}>
                     <Img
-                        src="/static/images/logo_white.png"
-                        alt="MDMT logo"
+                        src="/static/images/groat-small.svg"
+                        alt="Groat logo"
                         height="48"
                     />
                 </Link>
@@ -121,7 +120,6 @@ const Header = (): React.ReactElement => {
                         </span>
                     </PCOnly>
                 ))}
-                <Language />
             </Right>
         </Nav>
     );

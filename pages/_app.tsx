@@ -15,7 +15,6 @@ const components = {
 };
 
 export default class MyApp extends App {
-   
     public render(): React.ReactElement {
         const { Component, pageProps } = this.props;
 
