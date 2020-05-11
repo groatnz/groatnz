@@ -1,9 +1,9 @@
 {
-  "name": "MDMT",
-  "description": "Markdown Document Template",
+  "name": "groat-nz",
+  "description": "Groat.nz Primary website - next and markdown",
   "version": "1.0.0",
-  "author": "Takayosi Amagi",
-  "bugs": "https://github.com/fand/mdmt/issues",
+  "author": "Andrew watkins",
+  "bugs": "https://github.com/groatnz/groat/issues",
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^1.2.28",
     "@fortawesome/free-solid-svg-icons": "^5.13.0",
@@ -69,7 +69,7 @@
     "next.js"
   ],
   "license": "MIT",
-  "repository": "https://github.com/fand/mdmt",
+  "repository": "https://github.com/groatnz/groatnz",
   "scripts": {
     "build": "NODE_ENV=production run-s clean build:manifest build:build build:export build:nojekyll build:preload build:sw",
     "build:build": "next build",

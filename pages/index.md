@@ -1,36 +1,18 @@
 <div align="center">
   <br/>  
-  <img alt="logo" src="/static/images/logo.png" width="240"/>
+  <img alt="logo" src="/static/images/groat-small.svg" width="240"/>
   <br/>
   <br/>
-  <i>💊Markdown Document Template💊</i>
+  <i>Groat.nz</i>
   <br/>
   <br/>
 </div>
 
-MDMT is yet-another document site generator.
-It aims to make writing pages and customizing themes as easy as possible.
-
-## Features
-
-- Write pages with Markdown!
-- Built-in multi language support!
-- PWA supported!
-
-## Not Supported
-
-- No CLI command. `npm` command does everything I want ٩(ˊᗜˋ*)و
-- No theme provided via npm
-
-## Why?
-
-I tried soooooo many existing solutions, but...
-
-- Too complicated
-  - Docusaurus
-  - VuePress
-- Too simple
-  - Next.js
-  - Nuxt.js
-
-So I created another one 🐹←btw I love this emoji
+![](/images/andrew-watkins-thumb.jpg)
+<dl>
+<dt>Email</dt><dd>[andrew@groat.nz](mailto:andrew@groat.nz)</dd>
+<dt>Phone</dt><dd>+64 27 7031007</dd>
+<dt>Twitter</dt><dd>[@avowkind](https://twitter.com/avowkind)</dd>
+<dt>LinkedIn</dt><dd>[andrewwatkinsnz](href="https://www.linkedin.com/in/andrewwatkinsnz)</dd>
+<dt>GitHub</dt><dd>[@avowkind](https://github.com/avowkind)</dd>
+</dl>

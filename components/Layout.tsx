@@ -9,7 +9,6 @@ import ServiceWorker from "./ServiceWorker";
 import Sidebar from "./Sidebar";
 import Header from "./Header";
 import Footer from "./Footer";
-import Background from "./Background";
 
 const Wrapper = styled.div`
     position: fixed;
@@ -80,7 +79,7 @@ interface LayoutProps {
 }
 
 const Layout = (props: LayoutProps): React.ReactElement => {
-    const { state, frontmatter, dispatch } = useContext(AppContext);
+    const { state, dispatch } = useContext(AppContext);
     const bodyEl = useRef<HTMLDivElement>(null);
 
     const defer = (callback: () => void): void => {
@@ -148,7 +147,6 @@ const Layout = (props: LayoutProps): React.ReactElement => {
                     </MainWrapper>
                 </BodyColumn>
             </Wrapper>
-            <Background color={frontmatter.color} />
         </div>
     );
 };

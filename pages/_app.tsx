@@ -1,5 +1,5 @@
 import React from "react";
-import App, { AppInitialProps, AppContext } from "next/app";
+import App from "next/app";
 import Layout from "../components/Layout";
 import { Img, CodeBlock, Link } from "../lib/components";
 import { Provider } from "../lib/context";
@@ -15,19 +15,7 @@ const components = {
 };
 
 export default class MyApp extends App {
-    public static async getInitialProps({
-        Component,
-        ctx
-    }: AppContext): Promise<AppInitialProps> {
-        let pageProps = {};
-
-        if (Component.getInitialProps) {
-            pageProps = await Component.getInitialProps(ctx);
-        }
-
-        return { pageProps };
-    }
-
+   
     public render(): React.ReactElement {
         const { Component, pageProps } = this.props;
 
