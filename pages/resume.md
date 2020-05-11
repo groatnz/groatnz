@@ -34,7 +34,7 @@ I have a track record as a forward thinking, innovative solutions designer and p
 * Managing change across technical groups.
 
 ## Technical Skills
-* Full stack web application development: HTML, CSS, JavaScript: (node.js, Angular, D3), PostgreSQL, PHP/Symfony, C/C++, Java, Python, R and many others.
+* Full stack web application development: HTML, CSS, JavaScript: (Node, React, Angular, D3), PostgreSQL, PHP/Symfony, C/C++, Java, Python, R and many others.
 * Full life-cycle product design and development, business & functional analysis, specification, architecture, operations and support models.
 * Embedded systems, linux, network communications.
 * Agile (scrum), product ownership, roadmap & story development, delivery and operations
@@ -47,6 +47,23 @@ I have a track record as a forward thinking, innovative solutions designer and p
 
 
 ## Employment
+### Tech lead: Voluntarily.nz - Pam Fergusson Charitable Trust - Jan 2019 to present
+See https://voluntarily.nz
+
+The Voluntarily.nz project seeks to remove obstacles to high impact volunteering by building and running a freely available, open source platform that provides a curated marketplace linking schools, communities, businesses and activity providers.
+
+I have been involved with the project from its inception and have led the architecture and systems design, coded much of the implementation, trained and mentored students, interns and contributors. 
+
+#### Responsibilities
+* Implement the vision for the Voluntarily platform.
+* Develop an open source project team and community
+
+#### Achievements
+* Led multiple 'Code Party' contributor weekends.
+* Project has over 5500 commits, 104 contributors. 
+* AWS ECS deployment with CI/CD.
+* High automated test coverage.
+  
 ### Manager: Transport Technology, NZ Transport Agency - Jan 2018 to Nov 2018.
 A strategic role in a new group within NZTA to develop new systems and services for the management of the NZ Transport system.
 

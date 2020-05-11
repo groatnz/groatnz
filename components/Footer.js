@@ -21,8 +21,10 @@ const Footer = () => (
   <FooterEl>
     <Hr />
     <FooterText>
+      This site built with NextJS, React, Markdown and Github Pages. <br />
       {'groat.nz work can be found at '}
       <Link href='https://github.com/groatnz'>Github</Link>
+
     </FooterText>
   </FooterEl>
 )
