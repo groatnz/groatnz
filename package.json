@@ -1,0 +1,19 @@
+{
+  "name": "groatnz",
+  "version": "1.0.0",
+  "description": "Main groat.nz website",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/groatnz/groatnz.git"
+  },
+  "author": "Andrew Watkins",
+  "license": "MPL-2.0",
+  "bugs": {
+    "url": "https://github.com/groatnz/groatnz/issues"
+  },
+  "homepage": "https://github.com/groatnz/groatnz#readme"
+}
