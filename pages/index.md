@@ -3,7 +3,7 @@ title: About
 date: 2017-07-23 11:04:39
 ---
 # Andrew Watkins 
-## Software Engineer, Full Stack Web Development
+## Coder, Software Engineer, Full Stack Web Development
 
 * Full stack - Full Lifecycle
 * Create and Grow Agile Software Development Teams
@@ -13,9 +13,14 @@ date: 2017-07-23 11:04:39
 * Design and Structure Information Systems
 * Implementation and coding.
 
-I have over 30 years of Software Development, Systems Architecture Design and Team Leadership across a range of industries including Health, Automotive, Mobile Phone, Environmental Science and Industrial Control. This includes operating my own company; leading a major start-up mobile phone company software team through a high growth period; and an executive CIO role responsible for 38 IT staff and $12m budget.
+I can help you build your next software system.
 
-I have a clear track record as an innovative systems designer and project manager taking ideas from conception through implementation and delivery and into operation through a full business-process-aligned life cycle, managing teams using agile methodologies, leading edge tools and technologies.
+I have a track record as a customer focussed, innovative, solutions designer and product development manager taking ideas from conception through implementation and delivery and into operation through a full life cycle, managing teams using agile methodologies, leading edge tools and technologies. 
+
+I have over 30 years writing code, software development, product management, systems design and team leadership across a range of industries including science, technology, engineering, health, automotive, transport, mobile phone, and travel. I have a strong balance of technical and management skills.
+
+I have run my own company and led a start-up mobile phone company software team through a high growth period. I have created and developed multiple agile cross functional teams, including a major open source project, managed DevOps processes, CI/CD and modernised IT platforms including deployment to cloud services.
+
 
 ## Coder.
 I've been writing code since my first Sinclair ZX80. I've made a career of building great products both physical and virtual across a range of industries and technologies. If the IT industry re-invents its tools, processes and technology every 5 years then I've adapted 7 times and I'm ready to do it again.

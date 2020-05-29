@@ -16,12 +16,25 @@ date: 2017-07-23 11:32:57
 
 
 ## Profile
-I have over 30 years in software development, product management and team leadership across a range of industries including science, technology, engineering, health, automotive, transport, mobile phone, and travel.
+Coder, Innovation and Product Development
 
-I have run my own company and led a start-up mobile phone company software team through a high growth period. I have created and developed multiple agile cross functional teams, managed DevOps processes and modernised IT platforms including migration to cloud services.
+I have a track record as a customer focussed, innovative, solutions designer and product development manager taking ideas from conception through implementation and delivery and into operation through a full life cycle, managing teams using agile methodologies, leading edge tools and technologies. 
 
-I have a track record as a forward thinking, innovative solutions designer and product development manager taking ideas from conception through implementation and delivery and into operation through a full business-process-aligned life cycle, managing teams using agile methodologies, leading edge tools and technologies.
+I have over 30 years writing code, software development, product management, systems design and team leadership across a range of industries including science, technology, engineering, health, automotive, transport, mobile phone, and travel. I have a strong balance of technical and management skills.
 
+I have run my own company and led a start-up mobile phone company software team through a high growth period. I have created and developed multiple agile cross functional teams, including a major open source project, managed DevOps processes, CI/CD and modernised IT platforms including deployment to cloud services.
+
+## Technical Skills
+* Full stack web application development: HTML, CSS, JavaScript: (Node, React, Angular, Next), MongoDB, PostgreSQL, PHP/Symfony, C/C++, Java, Python, R and many others.
+* Full life-cycle product design and development, business & functional analysis, specification, architecture, operations and support models.
+* Embedded systems, linux, network communications.
+* Agile (scrum), product ownership, roadmap & story development, delivery and operations
+* Customer Experience, User Experience & Interface Design, Wireframes,
+* API design and international data standards.
+* Systems design for modern multi-tier service oriented architectures including microservices and cloud deployed systems.
+* High availability, real time systems.
+* DevOps CI/CD systems, automated test and deployment.
+* Data Acquisition and Information Visualisation systems.
 
 ## Management Skills
 * Leadership & team building including, recruitment, mentoring, performance development and management.
@@ -33,17 +46,6 @@ I have a track record as a forward thinking, innovative solutions designer and p
 * Evidence & data based problem solving, customer experience oriented design.
 * Managing change across technical groups.
 
-## Technical Skills
-* Full stack web application development: HTML, CSS, JavaScript: (Node, React, Angular, D3), PostgreSQL, PHP/Symfony, C/C++, Java, Python, R and many others.
-* Full life-cycle product design and development, business & functional analysis, specification, architecture, operations and support models.
-* Embedded systems, linux, network communications.
-* Agile (scrum), product ownership, roadmap & story development, delivery and operations
-* Customer Experience, User Experience & Interface Design, Wireframes,
-* API design and international data standards.
-* Systems design for modern multi-tier service oriented architectures including microservices and cloud deployed systems.
-* High availability, real time systems.
-* DevOps CI/CD systems, automated test and deployment.
-* Data Acquisition and Information Visualisation systems.
 
 
 ## Employment
@@ -57,12 +59,27 @@ I have been involved with the project from its inception and have led the archit
 #### Responsibilities
 * Implement the vision for the Voluntarily platform.
 * Develop an open source project team and community
+* Translate customer requirements into a full systems architecture
+* Establish development framework, tool chain, training, documentation, operating procedures.
+* Manage core development team along with 100+ volunteer open source contributors. 
+* Coded majority of the system using MongoDB, Express, Node JS, React and NextJS. 
+* MongoDB database design and implementation
+* Run volunteer weekend ‘code parties’.
+* Security, CI/CD, Cloud deployment. 
+* Managed and mentored 6 university undergrad and masters interns. 
 
 #### Achievements
-* Led multiple 'Code Party' contributor weekends.
-* Project has over 5500 commits, 104 contributors. 
-* AWS ECS deployment with CI/CD.
-* High automated test coverage.
+* Piloted project from initial workshops through to live release (https://voluntarily.nz) 
+* 5600 commits, 100+ contributors, 188kloc personally
+* Infrastructure as code CI/CD and deployment system using github actions, AWS ECR/ECS. 
+
+### Technical Consultant - Plant and Food Research - Nov 2018 – Present (Contract) 
+Provide IT consultancy and implementation services. 
+#### Projects:
+* Software Tools – help PFR select and implement development tool chains including github/bitbucket SCM, Atlassian Jira and Confluence. Assess company requirements, evaluate options and implement roll out of tool chains. Supporting software development and reproducible research.
+* Metadata Catalogue – help PFR select and implement a dataset metadata catalogue to allow discovery and management of extensive science data resources.  Selected CKAN, implemented datahub.plantandfood.co.nz and developed tools such as an Excel plugin to assist loading records into the catalogue. (Python coding)
+* VineEye – consultation on commercial product development of AI (Machine Learning/ Image Recognition) system for assessment of disease in grape vines. Developed draft systems architecture and product development technical briefing for implementation company. 
+
   
 ### Manager: Transport Technology, NZ Transport Agency - Jan 2018 to Nov 2018.
 A strategic role in a new group within NZTA to develop new systems and services for the management of the NZ Transport system.

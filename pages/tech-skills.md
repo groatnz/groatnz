@@ -24,7 +24,7 @@ At Vianet I designed a Web Services Architecture that provided a gateway between
 
 Although not a graphic designer I have a strong aesthetic sense and comfortable skills in Adobe Photoshop and Illustrator. I'm also a font nerd.
 
-## Web Standards and Protocols – HTML, CSS, XML, Javascript : Expert
+## Full Stack Web – HTML, CSS, XML, Javascript : Expert
 I have been writing pure HTML since 1995 and HTML + Client side Javascript since 1997. I was responsible for introducing web technologies into Renishaw plc both as a Rapid Application Development (RAD) tool and also as the user interface for an intranet based distributed application. This project involved considerable use of XML as a server side data transfer mechanism.
 
 At Sendo I introduced XML as the data transfer mechanism between the order processing system and the handset configuration system and designed an XML system for managing and compiling MMI resources such as bitmaps, languages and melodies. I was also responsible for the design and implementation of the Intranet web site. This included a universal front end for handset test and diagnostics. At Sendo I implemented an Over The Air (OTA) diagnostic information system using XML and SOAP.
@@ -35,7 +35,7 @@ At NIWA I introduced the use of XML Databases (eXist and Geonetwork), Designed X
 
 I first started writing Javascript in 1998 but most front end programming started with Vianet and NIWA. Having written some complex interactive front ends in pure js. I quickly recognised the need for supporting frameworks and after reviewing several adopted Angular at NIWA for applications such as NIWA Weather, NIWA Data and FarmMet.
 
-I'm also familiar with server side JS - this site is a pure node.js application.
+For Voluntarily I adopted a Javascript end to end approach using the MERN (MongoDB, Express, React, Node) stack along with NextJS for Server side rendering. I have authored scores of react components and pages using both class and function/hooks based approaches. 
 
 
 ## C,C++, Java, Object Oriented Programming : Expert
@@ -47,10 +47,14 @@ I have been using Java since 1996. At Renishaw I ported an Active X control used
 
 Familiar with J2EE, J2ME CLDC/MIDP, Personal Java, JNI, RMI, Java Servlets, JBOSS, Tomcat.
 
-## Database, Metadata and Geospatial: Proficient
-Familiar with SQL RDBMS (Oracle, MySQL, PostgreSQL/PostGIS). NIWA now favours PostgreSQL for new projects.  Can design and implement data models, script queries and interface to frameworks through ORM such as Doctrine, Hibernate.
+Over the last two years I have started migrating from Java to Rust and I am seeking an opportunity to use Rust in a commercial project. 
 
-Familiar with main Open Geospatial Consortium (OGC) protocols, GML, WFS, WMS, CSW,  OM, SOS.  Used extensively in the design of new NIWA SOA.
+## Database, Metadata and Geospatial: Proficient
+Experienced with SQL RDBMS (Oracle, MySQL, PostgreSQL/PostGIS). Can design and implement data models, script queries and interface to frameworks through ORM such as Doctrine, Hibernate.
+
+Also now experienced with NoSQL databases including MongoDB and EAV (Entity Attribute Value) database design.
+
+Experienced with main Open Geospatial Consortium (OGC) protocols, GML, WFS, WMS, CSW,  OM, SOS.  Used extensively in the design of new NIWA SOA.
 
 Familiar with IS019115, ISO 19139, ANZLIC, MCP, Dublin Core and other metadata formats. Implemented the Geonetwork Metadata package (BlueNetMEST) within NIWA and extended the profile for NIWA requirements.
 
