@@ -31,8 +31,10 @@ I have built embedded systems, dataloggers, network device, automotive systems, 
 
 If you are looking for someone who can be both deeply nerdy about software, but also has a great breadth of experience, someone who can listen to customers and really understand what they are looking for, who can design a great UI/UX and lead a team to build that product then we should be talking.
 
+[Andrew in action on Youtube](https://www.youtube.com/playlist?list=PL5ZhMU9Mc3JFxQpqr4FAMS5BovfQSbrQ0)
+
 ## Leader and Team builder.
-Take a look at the recommendations on my LinkedIn profile at https://www.linkedin.com/in/andrewwatkinsnz/ or https://betterview.com/ to see how people feel about working in my teams. I have proven vision, strategy, and leadership skills.
+Take a look at the recommendations on my LinkedIn profile at https://www.linkedin.com/in/andrewwatkinsnz/ to see how people feel about working in my teams. I have proven vision, strategy, and leadership skills.
 
 I've created and led multiple Agile/Scrum teams, introduced CI/CD tools, made technology product selections such as JS Clients and Angular, mentored developers and hands on coded and debugged applications. My goal has always been to build a team that is more effective next year than this year - no burn out, no technical debt.
 
