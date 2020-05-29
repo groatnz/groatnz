@@ -3,6 +3,8 @@ title: About
 date: 2017-07-23 11:04:39
 ---
 # Andrew Watkins 
+![Andrew's Picture](/images/andrew-watkins-thumb.jpg)
+
 ## Coder, Software Engineer, Full Stack Web Development
 
 * Full stack - Full Lifecycle
