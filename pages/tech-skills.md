@@ -61,6 +61,15 @@ Familiar with IS019115, ISO 19139, ANZLIC, MCP, Dublin Core and other metadata f
 ## Real Time and Embedded Systems -  Expert
 Much of my experience is with embedded and real time systems. I can work closely and effectively with hardware designers, design and implement operating systems, device drivers, networking, debug support, user interfaces and control applications. I can manage and control the full software development life cycle for new consumer electronic devices. I understand issues of production, marketing, security and usability. Devices include: Navman Navigators, Sendo GSM Mobile phones, The Sendo/Microsoft Z100 Smartphone. The Ansae Puppeteer, Oakfield's Medical Data logger and Stack's motor-sport dashboard and data logging system. I also have extensive experience in Plant control including a full landfill gas power station. Water pumping stations and a nuclear materials testing rig.
 
+## Dev/Ops
+All the bits you need to turn a code base into a running product. 
+* Git, GitHub, Bitbucket, Jira, Confluence. 
+* Github Actions, Jenkins, 
+* Docker, Docker-compose
+* Unit/Functional Testings: JUnit, xUnit, Ava, Enzyme
+* End to End testing: Codecept, Puppeteer, Selenium. Gherkin
+* AWS - EC2, S3, IAM, ECR, ECS, CloudFormation.
+* Auth0
 
 ## Python, PHP: Proficient
 At Vianet I took on two new programming languages. Python on Pylons for a web services gateway and PHP on Symfony for the primary accommodation booking application
